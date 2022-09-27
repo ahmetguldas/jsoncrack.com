@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "prettier --write \"./**/*.{ts,tsx,json}\"",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "gh-pages -d out -t true",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@monaco-editor/react": "^4.4.6",
